@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+.main {
+    /* border: 1px solid red; */
+}
+
+.wrapper {
+    /* border: 1px solid #FFE900; */
+    max-inline-size: 902px;
+    margin: auto;
+}
+
+.mainContent {
+    /* border: 1px solid blue; */
+}
+
+.mainContent img {
+    margin-block-start: 0;
+    display: block;
+    max-inline-size: 100%;
+}
+
+.titleContent {
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-weight: bold;
+    font-size: 20px;
+    margin-inline-start: 16px;
+    margin-block-start: 19px;
+}
+
+.content {
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-weight: bold;
+    font-size: 14px;
+    margin-inline-start: 16px;
+    margin-block-start: 19px;
+}
