@@ -1,0 +1,88 @@
+.tipoOperacion {
+    text-align: center;
+}
+
+.tipoOperacion h2 {
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    border: 1px solid black;
+    background-color: var(--alfgow);
+}
+
+.mainContent img {
+    margin-block-start: 0;
+    display: block;
+    max-inline-size: 100%;
+}
+
+.descripcion {
+    display: block;
+    font-family: 'Shadows Into Light', cursive;
+    color: #333333;
+    /* font-weight: bold; */
+    font-size: 25px;
+    margin-inline-start: 16px;
+    margin-block-start: 19px;  
+}
+
+.operacion {
+    font-weight: bold;
+}
+
+.caracteristica {
+    color: red;
+}
+
+.descripcionText {
+    
+    font-family: 'Didact Gothic', sans-serif;
+    color: #333333;
+    font-size: 20px;
+    
+    
+}
+
+.descripcionText>a{
+    text-decoration: none;
+}
+
+.desc1>h3 {
+    border-bottom: 1px solid red;
+    text-align: center;
+}
+
+
+.buttonInmueble {
+    display: flex;
+    width: 50px;
+    height: 30px;
+    border: 1px solid var(--alfgow);
+    border-radius: 50px;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #000000;
+    color: var(--alfgow);
+    margin-block-start: 29px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.buttonInmueble:active {
+    transform: scale(.9);
+}
+
+
+.contactoInmueble{
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    margin-block-end: 30px;
+}
+
+
+.contactoInmueble i{
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    color: green;
+    font-size: 40px;
+}

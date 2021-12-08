@@ -1,40 +1,72 @@
+@import url(./wrapper.css);
+@import url(./header.css);
+@import url(./navbar.css);
+@import url(./title.css);
+@import url(./maincontent.css);
+@import url(./card.css);
+
+
+
+:root {
+    --alfgow: #a5c71b;
+}
+
 body {
     margin: 0;
-}
-.main {
-    /* border: 1px solid red; */
+    background: #0a010136;
 }
 
-.wrapper {
-    /* border: 1px solid #FFE900; */
-    max-inline-size: 902px;
-    margin: auto;
-}
+/* Slider */
 
-.mainContent {
-    /* border: 1px solid blue; */
-}
-
-.mainContent img {
-    margin-block-start: 0;
+.slider-container {
+   
     display: block;
-    max-inline-size: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    border: 5px solid var(--alfgow);
+    margin: 0;
+    padding: 0;
+    border-radius: 10%;
+    
 }
 
-.titleContent {
-    font-family: 'Lato', sans-serif;
-    color: #333333;
-    font-weight: bold;
-    font-size: 20px;
-    margin-inline-start: 16px;
-    margin-block-start: 19px;
+#indexSlider {
+    border: 0;
+    border-radius: 0;
 }
 
-.content {
-    font-family: 'Lato', sans-serif;
-    color: #333333;
-    font-weight: bold;
-    font-size: 14px;
-    margin-inline-start: 16px;
-    margin-block-start: 19px;
+.slider-container::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-slide img{
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+    vertical-align: middle;
+}
+
+.slider-bullet-list {
+    text-align: center;
+    margin-block-start: 10px;
+}
+
+.slider-bullet {
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background: var(--alfgow);
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #FFFFFF;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    height: 70px;
+    color: #251F24;
+    padding-top: 20px;
 }

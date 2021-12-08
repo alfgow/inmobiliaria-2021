@@ -1,0 +1,22 @@
+.title {
+    display: flex;    
+    
+}
+
+.back {
+    font-size: 30px;
+    margin-inline-start: 19px;
+    margin-block-start: 20px;
+    color: red;
+}
+
+.titleContent {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: #333333;
+    font-weight: bold;
+    font-size: 30px;
+    margin-inline-start: 16px;
+    margin-block-start: 19px;
+    max-inline-size: 100%;
+}

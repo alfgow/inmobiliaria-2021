@@ -1,0 +1,50 @@
+.card{
+    background: #ffffff42;
+    border: 1.5px solid var(--alfgow);
+    border-radius: 50px;
+    margin-block-start: 15px;
+}
+
+.card:last-child {
+    margin-block-end: 15px;
+}
+
+.cardImage {
+    
+}
+
+.cardTitle {
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    margin-inline-start: 30px;
+}
+
+.cardBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 14px;
+    margin-block-end: 7px;
+}
+
+.buttonIndex {
+    display: inline-block;
+    width: 200px;
+    height: 32px;
+    border: 1px solid var(--alfgow);
+    border-radius: 50px;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #000000;
+    color: var(--alfgow);
+}
+
+.buttonIndex:active {
+    transform: scale(.9);
+}
+
+.cardBody a {
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
